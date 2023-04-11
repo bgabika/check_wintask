@@ -23,13 +23,13 @@ OK - 'SAP Booking Data': The task did run properly. Task location: \. Result cod
 
 ### Version
 
- - 1.1
+ - v1.11
 
 ### ToDo
 
  - waiting for bugs or feature requests (-:
 
 ## Changelog
-
+ - version 1.11 Add new exit code
  - [initial release] version 1.1
 
