@@ -24,6 +24,7 @@
 # GNU General Public License for more details.
 # ---------------------------------------------------------------
 # changelog:
+# 2023.04.11. v1.11  - New exit code
 # 2022.12.14. v1.1  - Hungarian codepage fix
 # 2022.12.11. v1.0  - First release
 
@@ -205,6 +206,9 @@ class CheckWinTask:
         elif task_hex_code == "0x800710e0":
             return "The operator or administrator has refused the request."
 
+        elif task_hex_code == "0xff":
+            return "The extended attributes are inconsistent."
+            
         else:
             return "UNKNOWN error code!"
 
