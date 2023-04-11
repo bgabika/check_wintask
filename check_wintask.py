@@ -4,7 +4,7 @@
 # COREX Windows Scheduled Task check plugin for Icinga 2
 # Copyright (C) 2019-2022, Gabor Borsos <bg@corex.bg>
 # 
-# v1.1 built on 2022.12.14.
+# v1.11 built on 2023.04.11.
 # usage: check_wintask.py --help
 #
 # For bugs and feature requests mailto bg@corex.bg
